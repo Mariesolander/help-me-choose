@@ -18,6 +18,7 @@ body {
 background-image: url("https://s3.amazonaws.com/peoplepng/wp-content/uploads/2018/04/28172721/Watercolor-Flowers-PNG-Free-Download.png"),linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(114,166,158,1) 80%);
 background-size: 1500px 1000px;
 background-position: -40px;
+background-attachment: fixed;
 }
 
 h1 {
@@ -52,4 +53,12 @@ input {
   margin-top: 10px;
   font-size: 12px;
   padding: 3px 10px;
+}
+
+.backgroundChange {
+  background: rgb(255,255,255);
+background-image: url("https://s3.amazonaws.com/peoplepng/wp-content/uploads/2018/04/28172721/Watercolor-Flowers-PNG-Free-Download.png"),linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(233,225,168,1) 80%);
+background-size: 1500px 1000px;
+background-position: -40px;
+background-attachment: fixed;
 }

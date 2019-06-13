@@ -7,7 +7,7 @@
 </head>
 <body>
 
-  <h1>Help me choose between...</h1>
+  <h1 class="h1">Help me choose between...</h1>
   <div class="inputSection">
     <div class="inputs">
       <input placeholder="Something"></input>
@@ -26,6 +26,11 @@
     $('.inputs').append('<input></input>')
   }
   $('.addOption').click(add_option)
+
+var background_change=function(){
+  $('body').addClass('backgroundChange')
+}
+$('.h1').click(background_change)
 
 })
 </script>
