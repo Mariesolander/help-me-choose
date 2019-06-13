@@ -1,9 +1,9 @@
 button {
-  background-color: lightgray;
+  background-color: #4d8e88;
   font-weight: bold;
   font-size: 20px;
   padding: 10px 28px;
-  color: gray;
+  color: #ffffff;
   border-radius: 4px;
 }
 
@@ -15,8 +15,9 @@ body {
   margin-top: 0px;
   margin-bottom: 50px;
   background: rgb(255,255,255);
-background: linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(233,148,170,1) 80%);
-
+background-image: url("https://s3.amazonaws.com/peoplepng/wp-content/uploads/2018/04/28172721/Watercolor-Flowers-PNG-Free-Download.png"),linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(114,166,158,1) 80%);
+background-size: 1500px 1000px;
+background-position: -40px;
 }
 
 h1 {
@@ -26,8 +27,10 @@ h1 {
 letter-spacing: -4px;
 word-spacing: 4px;
 margin-bottom: 0px;
-color: white;
+margin-top: 370px;
+color: #4d8e88;
 text-transform: uppercase;
+text-shadow: 2px 2px 2px #414242;
 }
 
 .inputSection {
