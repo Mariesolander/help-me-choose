@@ -62,3 +62,15 @@ background-size: 1500px 1000px;
 background-position: -40px;
 background-attachment: fixed;
 }
+
+.resultSection {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: white;
+  text-shadow: 2px 2px 2px #414242;
+}
